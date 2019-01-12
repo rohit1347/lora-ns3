@@ -95,11 +95,11 @@ def build(bld):
     'model/commands/new-channel-req.h',
     'model/commands/rx-timing-setup-req.h',
     'model/gw-trailer.h',
-	  'model/mac32-address.h'
+	'model/mac32-address.h'
 		]
 
 #  if (bld.env['ENABLE_EXAMPLES']):
 #      bld.recurse('examples')
 
-	bld.ns3_python_bindings()
+	# bld.ns3_python_bindings()
 
